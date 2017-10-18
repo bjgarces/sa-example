@@ -35,4 +35,9 @@ public class AppTest
     {
         assertTrue( true );
     }
+    
+    public void testApp2()
+    {
+    		assertEquals(100, App.sumatoria(50, 50));  
+    }
 }
